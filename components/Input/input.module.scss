@@ -1,0 +1,31 @@
+.mainInput {
+  outline: 0;
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  caret-color: #ff5b24;
+  &::placeholder {
+    color: rgba($color: #ffffff, $alpha: 0.8);
+  }
+}
+.mainBtn {
+  background-color: #ff5b24;
+  color: white;
+  border: none;
+  border-radius: 1.125rem;
+  padding: 10px 20px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 150px;
+  width: 100%;
+}
