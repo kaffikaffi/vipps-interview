@@ -1,4 +1,3 @@
-import { time } from "console";
 import React, { FC } from "react";
 import CountUp from "react-countup";
 import styles from "./resultOutput.module.scss";
