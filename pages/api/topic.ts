@@ -8,6 +8,7 @@ const handler = (_req: NextApiRequest, res: NextApiResponse) => {
   fetch(API_URL + searchWord)
     .then((response) => {
       if (!response.ok) {
+        res.status(400);
         throw new Error(response.statusText);
       }
       return response.json();
